@@ -1,9 +1,9 @@
 # MariaDB/MySQL secure users
 This bunch of scripts was created to secure MySQL/MariaDB users.
-Purporses:
-  a- password expires > 120d
-  b- account lock on >3 authentication fails
-  c- account lock if not logged in for more than 30d
+Purporses:  
+  a- password expires > 120d  
+  b- account lock on >3 authentication fails  
+  c- account lock if not logged in for more than 30d  
 
 ## Files description:
 ### 00_create_db_user.sql
