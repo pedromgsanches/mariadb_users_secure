@@ -16,6 +16,8 @@ CREATE TABLE dbadmin.aud_login (
 );
 
 
+INSTALL SONAME 'simple_password_check';
+
 SET GLOBAL max_password_errors=3
 SET GLOBAL default_password_lifetime=120
 SET GLOBAL simple_password_check_minimal_length=25
