@@ -39,11 +39,9 @@ symbolic-links=0
 # Avoid warning
 explicit_defaults_for_timestamp = 1
 
-# SiGIT
+# Performance
 max_allowed_packet=20M
 max_connections=1000
-
-# MySQL Tuner
 query_cache_size=0
 query_cache_type=0
 
