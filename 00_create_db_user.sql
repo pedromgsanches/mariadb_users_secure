@@ -15,7 +15,7 @@ CREATE TABLE dbadmin.aud_login (
 , PRIMARY KEY (user, host)
 );
 
-
+## Install password check plugin
 INSTALL SONAME 'simple_password_check';
 
 SET GLOBAL max_password_errors=3
