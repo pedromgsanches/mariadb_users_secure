@@ -20,7 +20,7 @@ innodb_temp_data_file_path=ibtmp1:12M:autoextend:max:5G
 
 # Security
 event_scheduler=ON
-init_connect='call dbaskill.user_login(current_user())'
+init_connect='call dbadmin.user_login(current_user())'
 simple_password_check_minimal_length=25
 
 # MariaDB Audit (plugin)
